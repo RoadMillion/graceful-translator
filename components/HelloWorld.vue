@@ -15,7 +15,7 @@ const count = ref(0);
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
       Edit
-      <code>components/HelloWorld.vue</code> to test HMR
+      <code>components-HelloWorld.vue</code> to test HMR
     </p>
   </div>
 
@@ -29,6 +29,6 @@ const count = ref(0);
 
 <style scoped>
 .read-the-docs {
-  color: #888;
+  color: #a1a1a1;
 }
 </style>

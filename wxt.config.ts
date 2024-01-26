@@ -11,4 +11,10 @@ export default defineConfig({
   vite: () => ({
     plugins: [vue()],
   }),
+  runner: {
+    startUrls: ['https://medium.com'],
+    binaries: {
+      chrome: 'C:/Program Files/Google/Chrome Beta/Application/chrome'
+    }
+  },
 });
